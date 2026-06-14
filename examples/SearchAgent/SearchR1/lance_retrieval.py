@@ -254,4 +254,3 @@ def embed_store(ds, lancedb_path: str = "tmp/lancedb", table_name: str = "docs")
     
     print(f"Created table '{table_name}' with {len(data)} documents in {lancedb_path}")
     return table
-
